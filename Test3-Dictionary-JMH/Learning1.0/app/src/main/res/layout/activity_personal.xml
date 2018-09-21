@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dell.learning10.PersonalActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="#a5515151"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="经典话题作文"
+        android:textSize="80px"
+        android:textColor="#ffffff"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="1000px"
+        android:layout_height="1000px"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="70px"
+            android:textColor="#000000"
+            android:text="箴言哲理类"
+            android:id="@+id/text1"
+            android:background="#efefef"
+            android:elevation="15dp"
+            android:maxLines="150"
+            android:focusable="true"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="70px"
+            android:textColor="#ffffff"
+            android:text="环境生态类"
+            android:id="@+id/text2"
+            android:background="#bab0b0"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="70px"
+            android:textColor="#000000"
+            android:text="社会弊病类"
+            android:id="@+id/text3"
+            android:background="#efefef"
+            android:elevation="15dp"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="70px"
+            android:textColor="#ffffff"
+            android:text="图表描述类"
+            android:id="@+id/text4"
+            android:background="#bab0b0"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="70px"
+            android:textColor="#000000"
+            android:text="获得更多"
+            android:id="@+id/text5"
+            android:background="#efefef"
+            android:elevation="15dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/action_music"
+            android:background="@drawable/music"
+            android:layout_marginRight="10dp"/>
+
+        <ImageButton
+            android:layout_width="500px"
+            android:layout_height="wrap_content"
+            android:background="#a5515151"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/action_stop"
+            android:background="@drawable/stop"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
